@@ -11,3 +11,6 @@ domains = [
     "saglik.com", "SaGlIk.CoM", "YEMEKTARİFİ.COM", "yemektarifi.com", "YeMeKTaRiFi.CoM",
     "OYUNLAR.COM", "oyunlar.com", "OyUnLaR.cOm", "SİTE.COM", "site.com"
 ]
+
+for domain in domains:
+    print(formatDomain(domain))
